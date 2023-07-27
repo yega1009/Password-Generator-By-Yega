@@ -1,4 +1,3 @@
-// Assignment code here
 function passwordLength() {
   var length = prompt("Please choose a number between 8 to 128 (length for password)")
 
@@ -6,6 +5,20 @@ function passwordLength() {
     alert("Try again. You must choose a number between 8 and 128")
   }
 }
+
+function characterTypes() {
+  var lowercase = confirm("Would you like to include lowercase characters?")
+  var uppercase = confirm("Would you like to include uppercase characters?")
+  var numeric = confirm("Would you like to include numeric characters?")
+  var special = confirm("Would you like to include special characters?")
+
+  if (!lowercase && !uppercase && !numeric && !special) {
+    alert("You must choose at least one character type");
+  }
+}
+
+
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
