@@ -3,6 +3,7 @@
 This is an app that generates password for users.
 
 ## Link to Deployed Application
+<a href="https://yega1009.github.io/Password-Generator-By-Yega/">Passsword Generator</a>
 
 ## Description
 - I wrote the javascript code to enable the functions of password creation.
