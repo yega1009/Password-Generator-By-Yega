@@ -23,6 +23,7 @@ N/A
 
 ## Screenshot of the Website
 
+![Screenshot 1](./assets/images/image-password.png)
 ## Credits
 
 N/A
